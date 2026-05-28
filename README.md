@@ -93,7 +93,7 @@ machine_learning/
 ### Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/samueladole/machine_learning
 cd machine_learning
 ```
 
