@@ -1,4 +1,3 @@
-````markdown
 # Machine Learning Practice Repository
 
 A hands-on repository for learning and experimenting with machine learning concepts, algorithms, and workflows using Python. This project serves as a personal playground for practicing data preprocessing, feature engineering, model training, evaluation, and deployment concepts using real-world and synthetic datasets.
@@ -181,5 +180,5 @@ Contributions, suggestions, and improvements are welcome. Feel free to fork the 
 ## License
 
 This project is intended for educational and practice purposes.
-````
+
 
