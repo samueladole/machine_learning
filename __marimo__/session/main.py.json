@@ -1,0 +1,55 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.23.8",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "020a821ecb2a69a200ae28a70c4895f0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "GEXv",
+      "code_hash": "847521a3938bdb89a8871f1d2320d5e8",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\nSystem:\n    python: 3.12.11 (main, Jul  8 2025, 20:41:49) [Clang 20.1.4 ]\nexecutable: /Users/samuel/Workspace/Python/machine_learning/.venv/bin/python3\n   machine: macOS-26.5-arm64-arm-64bit\n\nPython dependencies:\n      sklearn: 1.8.0\n          pip: None\n   setuptools: None\n        numpy: 2.4.6\n        scipy: 1.17.1\n       Cython: None\n       pandas: None\n   matplotlib: None\n       joblib: 1.5.3\nthreadpoolctl: 3.6.0\n\nBuilt with OpenMP: True\n\nthreadpoolctl info:\n       user_api: openmp\n   internal_api: openmp\n    num_threads: 8\n         prefix: libomp\n       filepath: /Users/samuel/Workspace/Python/machine_learning/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib\n        version: None\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "vecE",
+      "code_hash": "b696ba5b8eb8b4023dbc71d9585ba24c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "{\"assume_finite\": false, \"working_memory\": 1024, \"print_changed_only\": true, \"display\": \"diagram\", \"pairwise_dist_chunk_size\": 256, \"enable_cython_pairwise_dist\": true, \"array_api_dispatch\": false, \"transform_output\": \"default\", \"enable_metadata_routing\": false, \"skip_parameter_validation\": false}"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
