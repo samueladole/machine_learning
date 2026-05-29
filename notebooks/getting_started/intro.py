@@ -53,33 +53,40 @@ def _(clf):
 
 @app.cell
 def _(clf):
-    # save the model
     import os
     from pathlib import Path
     from pickle import dump, load
+    from sklearn.base import BaseEstimator
 
-    file_path = "models/getting_started/intro_model.pkl"
+    MODEL_BASE_DIR = 'models/getting_started/'
 
-    if not os.path.exists('models/getting_started'):
-        os.mkdir('models/getting_started')
+    # save the model
+    def save_pickle_model(name: str, model: BaseEstimator, base_dir: str = MODEL_BASE_DIR):
+        """Save ML model as pickle file"""
+        if not os.path.exists(base_dir):
+            os.mkdir(base_dir)
 
-    cwd = Path(os.getcwd())
-    with open(cwd / Path(file_path), "wb") as f:
-        dump(clf, f, protocol=5)
-    return Path, cwd, file_path, load
+        cwd = Path(os.getcwd())
+        with open(cwd / Path(base_dir + name), "wb") as f:
+            dump(model, f, protocol=5)
+        return True
 
+    save_pickle_model('intro_model.pkl', clf)
 
-@app.cell
-def _(Path, cwd, file_path, load):
     # load and use the model
-    with open(cwd / Path(file_path), "rb") as file:
-        clf_load = load(file)
-    return (clf_load,)
+    def load_pickle_model(name: str, base_dir: str = MODEL_BASE_DIR):
+        cwd = Path(os.getcwd())
+        with open(cwd / Path(MODEL_BASE_DIR + name), "rb") as file:
+            clf_load = load(file)
+        return clf_load
+
+    return load_pickle_model, save_pickle_model
 
 
 @app.cell
-def _(clf_load):
+def _(load_pickle_model):
     # use saved model
+    clf_load = load_pickle_model('intro_model.pkl')
     clf_load.predict([[4, 5, 6], [14, 15, 16]])
     return
 
@@ -236,6 +243,13 @@ def _(X_test, accuracy_score, pipe, y_test):
 
 
 @app.cell
+def _(pipe, save_pickle_model):
+    # save the model
+    save_pickle_model('pipeline_model.pkl', pipe)
+    return
+
+
+@app.cell
 def _(mo):
     mo.md("""
     # Model evaluation
@@ -347,6 +361,13 @@ def _(X_test2, search, y_test2):
     # the search object now acts like a normal random forest estimator
     # with max_depth=9 and n_estimators=4
     search.score(X_test2, y_test2)
+    return
+
+
+@app.cell
+def _(save_pickle_model, search):
+    # save model
+    save_pickle_model('randomized_search_model.pkl', search)
     return
 
 

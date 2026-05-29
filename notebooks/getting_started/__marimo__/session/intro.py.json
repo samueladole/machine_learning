@@ -78,20 +78,7 @@
     },
     {
       "id": "Xref",
-      "code_hash": "30d391dcda99d7d6fd7be0d276758d8c",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "SFPL",
-      "code_hash": "31aa353f29434ab1060cccfbbd541e68",
+      "code_hash": "f7749dc685bac2634423ee1ca4aa394f",
       "outputs": [
         {
           "type": "data",
@@ -104,7 +91,7 @@
     },
     {
       "id": "BYtC",
-      "code_hash": "826aa147a6f0c6f6b53d94b4368f67d1",
+      "code_hash": "7428410dcd3e76ceedd2097e53408238",
       "outputs": [
         {
           "type": "data",
@@ -144,14 +131,7 @@
     {
       "id": "emfo",
       "code_hash": "9dc93d6f820404babe604c6f4b9c23e5",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
+      "outputs": [],
       "console": []
     },
     {
@@ -183,167 +163,6 @@
     {
       "id": "iLit",
       "code_hash": "944842be541c6cc07934a494508191c1",
-      "outputs": [],
-      "console": []
-    },
-    {
-      "id": "ZHCJ",
-      "code_hash": "e468d6019d845d99f126226c4e4bc8cd",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "ROlb",
-      "code_hash": "a1b508d51649b6b116c9c1d2c3b8ba5c",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "qnkX",
-      "code_hash": "30cb6ed3ee012cd5370b4adba67393d2",
-      "outputs": [],
-      "console": []
-    },
-    {
-      "id": "XkRt",
-      "code_hash": "cc052151159e06a6cc3d31af790dc6e5",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/html": "<pre class='text-xs'>array([&#x27;city_London&#x27;, &#x27;city_Paris&#x27;, &#x27;city_Sallisaw&#x27;, &#x27;bow&#x27;, &#x27;feast&#x27;,\n       &#x27;grapes&#x27;, &#x27;his&#x27;, &#x27;how&#x27;, &#x27;last&#x27;, &#x27;learned&#x27;, &#x27;moveable&#x27;, &#x27;of&#x27;, &#x27;the&#x27;,\n       &#x27;trick&#x27;, &#x27;watson&#x27;, &#x27;wrath&#x27;], dtype=object)</pre>"
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "yRLH",
-      "code_hash": "64e91a96bc12b285a7de21df96c73a8d",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/html": "<pre class='text-xs'>array([[1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0],\n       [1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0],\n       [0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0],\n       [0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1]])</pre>"
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "TqIu",
-      "code_hash": "71f511413d1c791a290d8131fdcf1bef",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"pipelines-chaining-pre-processors-and-estimators\">Pipelines: chaining pre-processors and estimators</h1></span>"
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "SaAG",
-      "code_hash": "0c186ce8618593038ed5b0df9ed11393",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "aGdP",
-      "code_hash": "3b159b2350cb5a4c1a5dbeb9f94a9605",
-      "outputs": [],
-      "console": []
-    },
-    {
-      "id": "DXGg",
-      "code_hash": "86986737ec4e520736424fcb95d3e525",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/html": "<pre class='text-xs'>0.9777777777777777</pre>"
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "wHHy",
-      "code_hash": "b6f98d9931602f784dce6f86a58b02d2",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"model-evaluation\">Model evaluation</h1></span>"
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "nBbk",
-      "code_hash": "73c77f532d44f62e40b1ee75967667d6",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "swqE",
-      "code_hash": "461409e9cbe23c3de0a5994dfa4fcaa3",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "zGTV",
-      "code_hash": "149ee042944518dd705943d197ff6e5b",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/html": "<pre class='text-xs'>array([1., 1., 1., 1., 1., 1., 1., 1., 1., 1.])</pre>"
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "xkpS",
-      "code_hash": "9c176b939deae0a6fa232375e47ac120",
       "outputs": [
         {
           "type": "data",
@@ -356,14 +175,146 @@
         {
           "type": "stream",
           "name": "stdout",
-          "text": "[0.90909091 0.90909091 0.90909091 1.         1.         1.\n 1.         0.8        1.         0.9       ]\n",
+          "text": "<class 'pandas.DataFrame'>\nRangeIndex: 4 entries, 0 to 3\nData columns (total 4 columns):\n #   Column         Non-Null Count  Dtype\n---  ------         --------------  -----\n 0   city           4 non-null      str  \n 1   title          4 non-null      str  \n 2   expert_rating  4 non-null      int64\n 3   user_rating    4 non-null      int64\ndtypes: int64(2), str(2)\nmemory usage: 260.0 bytes\n",
           "mimetype": "text/plain"
         }
       ]
     },
     {
-      "id": "Rwpv",
-      "code_hash": "f70128212b2d2e237f4c11483811004f",
+      "id": "ZHCJ",
+      "code_hash": "e468d6019d845d99f126226c4e4bc8cd",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "a1b508d51649b6b116c9c1d2c3b8ba5c",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "qnkX",
+      "code_hash": "30cb6ed3ee012cd5370b4adba67393d2",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "TqIu",
+      "code_hash": "cc052151159e06a6cc3d31af790dc6e5",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Vxnm",
+      "code_hash": "64e91a96bc12b285a7de21df96c73a8d",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "DnEU",
+      "code_hash": "71f511413d1c791a290d8131fdcf1bef",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"pipelines-chaining-pre-processors-and-estimators\">Pipelines: chaining pre-processors and estimators</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ulZA",
+      "code_hash": "0c186ce8618593038ed5b0df9ed11393",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ecfG",
+      "code_hash": "3b159b2350cb5a4c1a5dbeb9f94a9605",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Pvdt",
+      "code_hash": "86986737ec4e520736424fcb95d3e525",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>0.9777777777777777</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "iFMP",
+      "code_hash": "ce058fc580b4319b7454982a265d0b89",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>True</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ZBYS",
+      "code_hash": "6e2b4260aadcb7262f61c73dce5c5f98",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"model-evaluation\">Model evaluation</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "aLJB",
+      "code_hash": "73c77f532d44f62e40b1ee75967667d6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nHfw",
+      "code_hash": "461409e9cbe23c3de0a5994dfa4fcaa3",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "xXTn",
+      "code_hash": "149ee042944518dd705943d197ff6e5b",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "AjVT",
+      "code_hash": "9c176b939deae0a6fa232375e47ac120",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "pHFh",
+      "code_hash": "20d10147484ae2efb757dcb6b588dc18",
       "outputs": [
         {
           "type": "data",
@@ -375,7 +326,7 @@
       "console": []
     },
     {
-      "id": "bTmg",
+      "id": "NCOB",
       "code_hash": "4b8693fc7af0c09030bd45c583ba2546",
       "outputs": [
         {
@@ -388,7 +339,7 @@
       "console": []
     },
     {
-      "id": "gyUH",
+      "id": "aqbW",
       "code_hash": "9f9e2eee915f6ae248da5267a001681c",
       "outputs": [
         {
@@ -401,7 +352,7 @@
       "console": []
     },
     {
-      "id": "TASM",
+      "id": "TRpd",
       "code_hash": "0533e0bc264c64796fd44f0ee3d0ed1c",
       "outputs": [
         {
@@ -414,7 +365,7 @@
       "console": []
     },
     {
-      "id": "blEl",
+      "id": "TXez",
       "code_hash": "4e3c4f68f310aa0366b22cb08a7dbd67",
       "outputs": [
         {
@@ -427,13 +378,13 @@
       "console": []
     },
     {
-      "id": "vjXJ",
+      "id": "dNNg",
       "code_hash": "07b53b685523078630d94923f997dc1a",
       "outputs": [],
       "console": []
     },
     {
-      "id": "nyMk",
+      "id": "yCnT",
       "code_hash": "c4ead7f4979609933fa48e6d6f2221b9",
       "outputs": [
         {
@@ -446,13 +397,26 @@
       "console": []
     },
     {
-      "id": "YhEZ",
+      "id": "wlCL",
       "code_hash": "fceba868cc0682d6aca573b14f46378d",
       "outputs": [
         {
           "type": "data",
           "data": {
             "text/html": "<pre class='text-xs'>0.8439550538068721</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "UjwR",
+      "code_hash": "6aa520d6543b9dd7759f2b431ced94e6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>True</pre>"
           }
         }
       ],
