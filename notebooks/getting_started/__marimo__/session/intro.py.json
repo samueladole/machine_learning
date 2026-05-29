@@ -1,0 +1,462 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.23.8",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "f140e774b4a001f552e935a5583d53be",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "703e5c23161d2d9a9158cb92cc36205a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"fitting-and-predicting-estimator-basic\">Fitting and predicting: estimator basic</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "a4cf99fdcdbb51d9828f3e0d9ef2da45",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "af74582faa6e03b57c1c6772ee69ea7e",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "2b5aadd0751e53b73af938bb5c611960",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>array([0, 1])</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "f87512fb93625d4c792e944f6813dcf2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>array([0, 1])</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "30d391dcda99d7d6fd7be0d276758d8c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "31aa353f29434ab1060cccfbbd541e68",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "826aa147a6f0c6f6b53d94b4368f67d1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>array([0, 1])</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "9630ab017cf26f8deac202c2be377a5d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"transformers-and-pre-processors\">Transformers and pre-processors</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "cb46018298cc5cc457aae5914d2fb89e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "9dc93d6f820404babe604c6f4b9c23e5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "d6a0ccb0df2397810658e514893eb2b7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"column-transformer-for-heterogeneous-data\">Column transformer for heterogeneous data</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "5db8f92fa9cdcc739479a06e194ba0b5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": "944842be541c6cc07934a494508191c1",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ZHCJ",
+      "code_hash": "e468d6019d845d99f126226c4e4bc8cd",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "a1b508d51649b6b116c9c1d2c3b8ba5c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "qnkX",
+      "code_hash": "30cb6ed3ee012cd5370b4adba67393d2",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "XkRt",
+      "code_hash": "cc052151159e06a6cc3d31af790dc6e5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>array([&#x27;city_London&#x27;, &#x27;city_Paris&#x27;, &#x27;city_Sallisaw&#x27;, &#x27;bow&#x27;, &#x27;feast&#x27;,\n       &#x27;grapes&#x27;, &#x27;his&#x27;, &#x27;how&#x27;, &#x27;last&#x27;, &#x27;learned&#x27;, &#x27;moveable&#x27;, &#x27;of&#x27;, &#x27;the&#x27;,\n       &#x27;trick&#x27;, &#x27;watson&#x27;, &#x27;wrath&#x27;], dtype=object)</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "yRLH",
+      "code_hash": "64e91a96bc12b285a7de21df96c73a8d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>array([[1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0],\n       [1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0],\n       [0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0],\n       [0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1]])</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TqIu",
+      "code_hash": "71f511413d1c791a290d8131fdcf1bef",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"pipelines-chaining-pre-processors-and-estimators\">Pipelines: chaining pre-processors and estimators</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SaAG",
+      "code_hash": "0c186ce8618593038ed5b0df9ed11393",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "aGdP",
+      "code_hash": "3b159b2350cb5a4c1a5dbeb9f94a9605",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "DXGg",
+      "code_hash": "86986737ec4e520736424fcb95d3e525",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>0.9777777777777777</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "wHHy",
+      "code_hash": "b6f98d9931602f784dce6f86a58b02d2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"model-evaluation\">Model evaluation</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nBbk",
+      "code_hash": "73c77f532d44f62e40b1ee75967667d6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "swqE",
+      "code_hash": "461409e9cbe23c3de0a5994dfa4fcaa3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "zGTV",
+      "code_hash": "149ee042944518dd705943d197ff6e5b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>array([1., 1., 1., 1., 1., 1., 1., 1., 1., 1.])</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "xkpS",
+      "code_hash": "9c176b939deae0a6fa232375e47ac120",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "[0.90909091 0.90909091 0.90909091 1.         1.         1.\n 1.         0.8        1.         0.9       ]\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "Rwpv",
+      "code_hash": "f70128212b2d2e237f4c11483811004f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"automatic-parameter-searches\">Automatic parameter searches</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bTmg",
+      "code_hash": "4b8693fc7af0c09030bd45c583ba2546",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "gyUH",
+      "code_hash": "9f9e2eee915f6ae248da5267a001681c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TASM",
+      "code_hash": "0533e0bc264c64796fd44f0ee3d0ed1c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "blEl",
+      "code_hash": "4e3c4f68f310aa0366b22cb08a7dbd67",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vjXJ",
+      "code_hash": "07b53b685523078630d94923f997dc1a",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "nyMk",
+      "code_hash": "c4ead7f4979609933fa48e6d6f2221b9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "{\"max_depth\": 9, \"n_estimators\": 4}"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "YhEZ",
+      "code_hash": "fceba868cc0682d6aca573b14f46378d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>0.8439550538068721</pre>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
